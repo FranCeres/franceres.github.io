@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 3%;
+}
+
+strong {
+	font-weight: 500;
+}
+
+h1 {
+	font-family: "gotham", sans-serif;
+	font-weight: 300;
+	color: rgba(53,56,141,1.00);
+}
+
+#cv {
+	font-weight:600;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	background-color: rgba(53,56,141,1.00);
+	border-radius: 25px;
+	display: inline-block;
+	margin-bottom: 2px;
+}
+
+.dot2 {
+	height: 13px;
+	width: 13px;
+	background-color: rgba(232,79,50,1.00);
+	border-radius: 25px;
+	display: inline-block;
+}
+
+.dot3 {
+	height: 13px;
+	width: 13px;
+	background-color: rgba(102,51,153,1.00);
+	border-radius: 25px;
+	display: inline-block;
+}
+
+.dot4 {
+	height: 13px;
+	width: 13px;
+	background-color: rgba(70,153,154,1.00);
+	border-radius: 25px;
+	display: inline-block;
+}
+.dot5 {
+	background-color: rgba(70,153,154,1.00);
+	border-radius: 29px;
+	margin-top: 14px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: 30px;
+	height: 30px;
+	margin-left: -21px;
+	border: solid 4px #ffffff;
+	z-index: 3;
+}
+
+.dot6 {
+	background-color: rgba(102,51,153,1.00);
+	border-radius: 29px;
+	margin-top: 14px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	width: 30px;
+	height: 30px;
+	border: solid 4px #ffffff;
+	z-index: 3;
+	float: right;
+}
+
+#dot6special {
+	margin-top: -24px;
+}
+
+.division {
+	background-color: rgba(236,236,236,1.00);
+	height: 20px;
+}
+
+h2 {
+	font-family: "gotham", sans-serif;
+	font-weight: 500;
+	color: rgba(53,56,141,1.00);
+	font-size: 21px;
+	line-height: 1;
+}
+
+.personal_list {
+	list-style: none;
+	font-family: "gotham", sans-serif;
+	font-weight: 200;
+	color: rgba(53,56,141,1.00);
+	font-size: 18px;
+	padding-left: 0px;
+	flex: 1 1 1;
+	margin-right: 10px;
+	margin-top: -5px;
+}
+
+.personal_list2 {
+	list-style: none;
+	font-family: "gotham", sans-serif;
+	font-weight: 300;
+	color: rgba(53,56,141,1.00);
+	font-size: 18px;
+	padding-left: 4px;
+	flex: 1 1 1;
+	margin-top: -5px;
+}
+
+#personal {
+	display: flex; 
+}
+
+.linea {
+	width: 2px;
+	height: 80px;
+	background-color: rgba(53,56,141,1.00);
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-top: 20px;
+	z-index: 2;
+}
+
+.linea2 {
+	width: 2px;
+	height: 250px;
+	background-color: rgba(53,56,141,1.00);
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 20px;
+	float: left;
+}
+
+.linea3 {
+	width: 2px;
+	height: 80px;
+	background-color: rgba(53,56,141,1.00);
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 0px;
+	float: right;
+}
+
+#parent {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#child1, #child2 {
+	flex: 1 0 1;
+}
+
+
+#child1 {
+	margin-right: 10px;
+	line-height: 2;
+	width: 39vw;
+}
+
+#child2 ul {
+	line-height: 2;
+	margin-bottom: -10px;
+}
+
+#child2 h2 {
+	margin-bottom: 15px;
+}
+
+/*otro_bloque*/
+
+h3 {
+	font-family: "gotham", sans-serif;
+	font-weight: 500;
+	color: rgba(53,56,141,1.00);
+	font-size: 16px;
+}
+
+h4 {
+	font-family: "gotham", sans-serif;
+	font-weight: 300;
+	color: rgba(53,56,141,1.00);
+	font-size: 16px;
+}
+
+p {
+	font-family: "gotham", sans-serif;
+	font-weight: 300;
+	color: rgba(53,56,141,1.00);
+	font-size: 16px;
+	margin-top: -10px;
+}
+
+#parent2 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#child3, #child4 {
+	flex: 1 0 1;
+	text-align: right;
+	width: 39vw;
+}
+
+#child4 p {
+	margin-top: 10px;
+	width: 38vw;
+	margin-left: 13px;
+}
+
+.linea4 {
+	width: 2px;
+	height: 80px;
+	background-color: rgba(53,56,141,1.00);
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 190px;
+}
+
+#child3 {
+	margin-left: -15px;
+}
+/*otro_bloque*/
+
+#parent3 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#child5, #child6 {
+	flex: 1 0 1;
+	text-align: left;
+	width: 40vw;
+}
+
+#parent3 h2 {
+	margin-bottom: 25px;
+}
+
+#parent3 p {
+	margin-bottom: 20px;
+	width: 35vw;
+}
+
+/*otro_bloque*/
+
+#freelance {
+	display: flex;
+}
+
+#freelance .dot2 {
+	margin-top: 20px;
+	height: 15px;
+	width: 18px;
+}
+
+#child7 {
+	flex: 1 1 1;
+	margin-top: 40px;
+	margin-left: -13px;
+}
